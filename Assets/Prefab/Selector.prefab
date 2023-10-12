@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4615717449421790190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2015714766090877583}
+  - component: {fileID: 5178831485260787111}
+  - component: {fileID: 8615944455624913757}
+  m_Layer: 0
+  m_Name: Selector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2015714766090877583
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4615717449421790190}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5178831485260787111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4615717449421790190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fd217f44a2a1c345a59e67de991ae6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dominantEye: {fileID: 0}
+  nonDominantEye: {fileID: 0}
+  confirmer: {fileID: 0}
+  hovering: 0
+  hovered: {fileID: 0}
+  lastSelected: {fileID: 0}
+  selectionDisplayTime: 1
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  hoverColor: {r: 0, g: 0, b: 1, a: 1}
+  selectColor: {r: 0, g: 1, b: 0, a: 1}
+  onClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8615944455624913757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4615717449421790190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6b47831e75bf6f4a95e2415ef3a5b57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  port: 8999
+  selected: 0
+  frameHasPassed: 0
