@@ -74,7 +74,6 @@ You can start sending user input.
 
 
 ## Adding targets
-### Adding targets
 To add a target, simply add whatever object you want to the scene, place it where you want it, and add the **Selectable** script to it.
 
 ## Getting test data
